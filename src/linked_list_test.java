@@ -84,7 +84,7 @@ public class linked_list_test {
         System.out.println(t.previous()); // 다시 t를 10을 가리키게 함
 
         System.out.println(t.next()); // t가 가리키는 값 = 10을 출력
-        System.out.println(t.next()); // 다시 t를 1을 가리키게 함
+        System.out.println(t.next()); // t를 2 가리키게 함
 
         t.add(6); // t가 가리키는 곳 앞에 6을 삽입, 1 10 2 6
         System.out.println(L);
